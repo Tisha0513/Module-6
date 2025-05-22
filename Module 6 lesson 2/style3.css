@@ -1,0 +1,51 @@
+/* Global Properties */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background: #aeb3cd;
+
+    font-family: "Baloo Tamma 2", cursive;
+
+}
+
+/* Main Heading Font */
+
+.m-heading {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* Navigation */
+
+.navigation-link {
+
+    border: 2px solid transparent;
+
+}
+
+.navigation-link:hover {
+
+    text-decoration: none;
+
+    border-bottom: 2px solid #f5ba09;
+
+    transition: 0.6s ease;
+
+}
+
+.banner-image {
+    background-image: url("swimming.png");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
