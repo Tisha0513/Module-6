@@ -1,0 +1,93 @@
+/* Global Properties */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background: #bbcfc6;
+
+    font-family: "Baloo Tamma 2", cursive;
+
+}
+
+/* Main Heading Font */
+
+.m-heading {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* Navigation */
+
+.navigation-link {
+
+    border: 2px solid transparent;
+
+}
+
+.navigation-link:hover {
+
+    text-decoration: none;
+
+    border-bottom: 2px solid #f5ba09;
+
+    transition: 0.6s ease;
+
+}
+
+.banner-image {
+    background-image: url("online shopping.webp");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.media_link {
+
+    padding: 1rem;
+
+    max-width: 12rem;
+
+    margin-left: 1rem;
+
+    border: 2px solid #f5ba09;
+
+    border-radius: 0.5rem;
+
+}
+
+.media_link {
+
+    padding: 1rem;
+
+    max-width: 12rem;
+
+    margin-left: 1rem;
+
+    border: 2px solid #f5ba09;
+
+    border-radius: 0.5rem;
+
+}
+
+.media_link {
+
+    padding: 1rem;
+
+    max-width: 12rem;
+
+    margin-left: 1rem;
+
+    border: 2px solid #6889d0;
+
+    border-radius: 0.5rem;
+
+}
