@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <title>SecureTrust Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Trust.inc</div>
+        <nav>
+            <ul>
+                <li><a href="#services">About</a></li>
+                <li><a href="#account">Summary</a></li>
+                <li><a href="#contact" tabindex="0">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" role="banner">
+            <h1>Banking You Can Trust</h1>
+            <p>Your secure partner for personal banking solutions</p>
+            <div class="hero-buttons">
+                <button class="btn" onclick="alert('Login functionality coming soon!')">Signup Now</button>
+                <button class="btn" onclick="alert('Sign up functionality coming soon!')">Login Now</button>
+            </div>
+        </section>
+
+        <section id="services" aria-label="Bank services overview" class="services">
+            <article tabindex="0" class="service-card" aria-describedby="desc-checking">
+                <div class="service-icon" aria-hidden="true"></div>
+                <h2 class="service-title">Checking Accounts</h2>
+                <p id="desc-checking" class="service-desc">Daily banking with easy access and zero fees.</p>
+            </article>
+            <article tabindex="0" class="service-card" aria-describedby="desc-savings">
+                <div class="service-icon" aria-hidden="true"></div>
+                <h2 class="service-title">Savings Accounts</h2>
+                <p id="desc-savings" class="service-desc">Grow your money with competitive interest options</p>
+            </article>
+            <article tabindex="0" class="service-card" aria-describedby="desc-loans">
+                <div class="service-icon" aria-hidden="true"></div>
+                <h2 class="service-title">Loans</h2>
+                <p id="desc-loans" class="service-desc">Cheap rates and loans to meet your
+                    goals.</p>
+            </article>
+            <article tabindex="0" class="service-card" aria-describedby="desc-cards">
+                <div class="service-icon" aria-hidden="true"></div>
+                <h2 class="service-title">Credit & Debit Cards</h2>
+                <p id="desc-cards" class="service-desc">Secure, widely accepted cards with protection
+                </p>
+            </article>
+        </section>
+
+        <section id="account" class="account-summary" role="region" aria-label="Sample account summary">
+            <h2 class="account-header">Your banking summary - </h2>
+            <div class="account-details">
+                <div class="account-col">
+                    <h3>Checking Balance</h3>
+                    <p>$4,568.92</p>
+                </div>
+                <div class="account-col">
+                    <h3>Savings Balance</h3>
+                    <p>$12,543.23</p>
+                </div>
+                <div class="account-col">
+                    <h3>Credit Card Due</h3>
+                    <p>$214.60</p>
+                </div>
+                <div class="account-col">
+                    <h3>Loans Remaining</h3>
+                    <p>$16,272.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="container">
+        <h5 class="text-dark pt-5 text-center">Social Media</h5>
+        <h3 class="text-dark text-center">Let's be a friends!</h3>
+        <div class="row d-flex justify-content-center mb-3">
+            <div class="col-3 media_link btn" href="#">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-6">
+                        <h4 class="text-primary">Youtube</h4>
+                    </div>
+                    <div class="col-6">
+                        <img style="height: 30px; width: 30px;" src="youtube.avif" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 media_link btn" href="#">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-6">
+                        <h4 class="text-primary">Facebook</h4>
+                    </div>
+                    <div class="col-6">
+                        <img style="height: 30px; width: 30px;" src="facebook copy.webp" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 media_link btn" href="#">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-6">
+                        <h4 class="text-primary">Instagram</h4>
+                    </div>
+                    <div class="col-6">
+                        <img style="height: 30px; width: 30px;" src="instagrasmsm.jpeg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 media_link btn" href="#">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-6">
+                        <h4 class="text-primary">GitHub</h4>
+                    </div>
+                    <div class="col-6">
+                        <img style="height: 30px; width: 30px;" src="logo github.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container d-flex justify-content-center">
+            <p class="text-info bg-dark">Copyright© 2025 | <b id="b" class="text-white"> All Rights Reserved by
+                    Trust.inc</b></p>
+        </div>
+    </footer>
+</body>
+
+</html>

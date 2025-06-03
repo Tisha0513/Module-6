@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #0d47a1;
+    background-color: #163058;
     color: white;
     padding: 1rem 2rem;
     display: flex;
@@ -47,7 +47,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-    background-color: #1565c0;
+    background-color: #143c6a;
     border-radius: 6px;
     outline: none;
 }
@@ -60,7 +60,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #1976d2, #42a5f5);
+    background: linear-gradient(135deg, #6a8db2, #42a5f5);
     color: white;
     padding: 4rem 2rem;
     border-radius: 16px;
@@ -91,7 +91,7 @@ main {
 }
 
 .btn {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.382);
     color: #1976d2;
     border: none;
     padding: 0.85rem 2rem;
@@ -99,13 +99,13 @@ main {
     font-size: 1.1rem;
     border-radius: 35px;
     cursor: pointer;
-    box-shadow: 0 6px 15px rgba(25, 118, 210, 0.3);
+    box-shadow: 0 6px 15px rgba(67, 95, 122, 0.3);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: #1565c0;
+    background-color: #536273;
     color: white;
     outline: none;
 }
@@ -144,7 +144,7 @@ main {
     font-weight: 700;
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
-    color: #0d47a1;
+    color: #294a7b;
 }
 
 .service-desc {
@@ -199,7 +199,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #0d47a1;
+    background-color: #3762a3;
     color: white;
     text-align: center;
     padding: 1rem 1rem;
@@ -236,7 +236,7 @@ footer {
 
     margin-left: 1rem;
 
-    border: 2px solid #5c09f5;
+    border: 2px solid #8897e3;
 
     border-radius: 0.5rem;
 }
